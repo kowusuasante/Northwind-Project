@@ -104,11 +104,12 @@ Supplier
 	( 'Forêts d''érables', 'Chantal Goulet', 'Accounting Manager', '148 rue Chasseur', 'Ste-Hyacinthe', 'Québec', 'J2S 7S8', 'Canada', '(514) 555-2955', '(514) 555-2921', NULL);
 
 
-	Shipper
-	INSERT INTO shippers VALUES
+Shipper
 	( 'Speedy Express', '(503) 555-9831'),
 	( 'United Package', '(503) 555-3199'),
 	( 'Federal Shipping', '(503) 555-9931'),
 	( 'Alliance Shippers', '1-800-222-0451'),
 	( 'UPS', '1-800-782-7892'),
 	( 'DHL', '1-800-225-5345');
+
+ 
