@@ -105,11 +105,12 @@ Supplier
 
 
 Shipper
-	( 'Speedy Express', '(503) 555-9831'),
-	( 'United Package', '(503) 555-3199'),
-	( 'Federal Shipping', '(503) 555-9931'),
-	( 'Alliance Shippers', '1-800-222-0451'),
-	( 'UPS', '1-800-782-7892'),
-	( 'DHL', '1-800-225-5345');
+
+( 'Speedy Express', '(503) 555-9831'),
+( 'United Package', '(503) 555-3199'),
+( 'Federal Shipping', '(503) 555-9931'),
+( 'Alliance Shippers', '1-800-222-0451'),
+( 'UPS', '1-800-782-7892'),
+( 'DHL', '1-800-225-5345');
 
  
