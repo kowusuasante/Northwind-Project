@@ -5,21 +5,18 @@ Below is the schema / diagram for the tables
 
 ![image](https://github.com/kowusuasante/Northwind-Project/assets/149259861/6f97fc5d-95bc-41b5-89c5-ef0f279b9b73)
 
-
 1.	Create the database named ‘Northwnd’
-2.	Use the diagram below to design and create the tables 
+2.	Use the diagram below to design and create the tables  
 3.	Load data into the tables
-a.	The following tables will be loaded manually with Insert statements (Shippers,Suppliers, and US_states). In the Shippers and Suppliers tables, auto generate the Shippers_id and supplier_id respectively.
-
-The values for these tables are provided in the appendix a.
+a.	The following tables will be loaded manually with Insert statements (Shippers,Suppliers, and US_states). In the Shippers and Suppliers tables, auto generate the Shippers_id and supplier_id respectively. The values for these tables are provided in the appendix a.
 b.	The data for the remaining tables as provided as csv files which should then be loaded into the tables.
 c.	Data for Customer_demographics and Customer_demo are missing but the tables should be created.
-5.	Perform the following:
+4.	Perform the following:
 
 Appendix a.
 Us_states
 
-  (1, 'Alabama', 'AL', 'south'),
+       (1, 'Alabama', 'AL', 'south'),
 	(2, 'Alaska', 'AK', 'north'),
 	(3, 'Arizona', 'AZ', 'west'),
 	(4, 'Arkansas', 'AR', 'south'),
@@ -71,7 +68,6 @@ Us_states
 	(50, 'Wisconsin', 'WI', 'midwest'),
 	(51, 'Wyoming', 'WY', 'west')
 
-
 Supplier
 ('Exotic Liquids', 'Charlotte Cooper', 'Purchasing Manager', '49 Gilbert St.', 'London', NULL, 'EC1 4SD', 'UK', '(171) 555-2222', NULL, NULL),
 	('New Orleans Cajun Delights', 'Shelley Burke', 'Order Administrator', 'P.O. Box 78934', 'New Orleans', 'LA', '70117', 'USA', '(100) 555-4822', NULL, '#CAJUN.HTM#'),
@@ -103,14 +99,14 @@ Supplier
 	( 'Gai pâturage', 'Eliane Noz', 'Sales Representative', 'Bat. B 3, rue des Alpes', 'Annecy', NULL, '74000', 'France', '38.76.98.06', '38.76.98.58', NULL),
 	( 'Forêts d''érables', 'Chantal Goulet', 'Accounting Manager', '148 rue Chasseur', 'Ste-Hyacinthe', 'Québec', 'J2S 7S8', 'Canada', '(514) 555-2955', '(514) 555-2921', NULL);
 
-
-Shipper
-
-( 'Speedy Express', '(503) 555-9831'),
-( 'United Package', '(503) 555-3199'),
-( 'Federal Shipping', '(503) 555-9931'),
-( 'Alliance Shippers', '1-800-222-0451'),
-( 'UPS', '1-800-782-7892'),
-( 'DHL', '1-800-225-5345');
+	Shipper
+ 
+	INSERT INTO shippers VALUES
+	( 'Speedy Express', '(503) 555-9831'),
+	( 'United Package', '(503) 555-3199'),
+	( 'Federal Shipping', '(503) 555-9931'),
+	( 'Alliance Shippers', '1-800-222-0451'),
+	( 'UPS', '1-800-782-7892'),
+	( 'DHL', '1-800-225-5345');
 
  
