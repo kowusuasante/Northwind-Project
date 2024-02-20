@@ -1,5 +1,5 @@
 # Northwind-Project
-This project involves cresting SQL tables and loading the tables with data.
+This project involves creating SQL tables and loading the tables with data.
 The main idea is to replicate the Northwind database.
 Below is the schema / diagram for the tables
 
